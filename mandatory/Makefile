@@ -8,7 +8,7 @@ LFLAGS			:=
 SRC_DIR			:=	src
 BIN_DIR			:=	bin
 
-SOURCES			:=	ft_strlen
+SOURCES			:=	ft_strlen ft_strcpy
 OBJECTS			:=	$(SOURCES:%=$(BIN_DIR)/%.o)
 
 TEST_SRC_DIR	:=	test
