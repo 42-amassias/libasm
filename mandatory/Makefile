@@ -8,13 +8,13 @@ LFLAGS			:=
 SRC_DIR			:=	src
 BIN_DIR			:=	bin
 
-SOURCES			:=	
+SOURCES			:=	ft_strlen
 OBJECTS			:=	$(SOURCES:%=$(BIN_DIR)/%.o)
 
 TEST_SRC_DIR	:=	test
 TEST_BIN_DIR	:=	test_bin
 
-TEST_SOURCES	:=	
+TEST_SOURCES	:=	main
 TEST_OBJECTS	:=	$(TEST_SOURCES:%=$(TEST_BIN_DIR)/%.o)
 
 LIBASM			:=	libasm.a
